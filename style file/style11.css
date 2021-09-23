@@ -1,0 +1,139 @@
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;}
+.cont{
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+    margin: 10px;
+}
+footer{
+    background-color: rgb(17, 17, 17);
+    color: grey;
+
+}
+.about{
+    width: 40%;
+}
+.sec-1{
+    padding: 15px;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+.link1{
+    width: 20%;
+    
+}
+.link1 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.link1 ul {
+    list-style: none;
+}
+.link2{
+    width: 20%;
+}
+.link2 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.link2 ul {
+    list-style: none;
+}
+.link3{
+    width: 20%;
+}
+.link3 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.link3 ul {
+    list-style: none;
+}
+.sec-2{
+    border-bottom: 1px solid grey;
+}
+.sec-2 p{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.sec-2 p a{
+    text-decoration: none;
+    background-color: red;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 35px;
+    color: white;
+}
+.sec-3{
+    padding: 15px;
+    display: flex;
+    border-bottom: 1px solid grey;
+    justify-content: center;
+
+    
+}
+.sec-3 ul li a i{
+    color: grey;
+    width: 70px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.sec-3 ul{
+    display: flex;
+    list-style: none; 
+    
+}
+
+.sec-3 ul li i{
+    margin: 30px;
+    
+}
+.fa-facebook:hover{
+    background-color: blue;
+    color: white;
+}
+.fa-twitter:hover{
+    background-color:skyblue;
+    color: white;
+}
+.fa-google:hover{
+    background-color:red;
+    color: white;
+}
+.fa-linkedin:hover{
+    background-color: blue;
+    color: white;
+}
+.fa-instagram:hover{
+    background-color:magenta;
+    color: white;
+
+}
+.sec-4{
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    background-color: black;
+}
+.sec-4 p{
+    color: grey;
+    position:relative;
+}
+.sec-4 p::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    background-color: yellow;
+    transition: all .3s;
+}
+.sec-4 p:hover::after{
+    width: 100%;
+
+}
