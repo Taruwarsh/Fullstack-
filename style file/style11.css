@@ -122,6 +122,7 @@ footer{
     color: grey;
     position:relative;
 }
+
 .sec-4 p::after{
     content: '';
     display: block;
@@ -135,5 +136,13 @@ footer{
 }
 .sec-4 p:hover::after{
     width: 100%;
+}
+@media(max-width:1000px)
+{
+    .about{
+        width: 100%;
+        background-color: hotpink;
 
+    }
+    
 }
